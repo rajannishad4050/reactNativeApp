@@ -45,6 +45,7 @@ function App() {
         successCallback,
         failureCallback,
       );
+      onChangeAmount('');
     }
   };
 

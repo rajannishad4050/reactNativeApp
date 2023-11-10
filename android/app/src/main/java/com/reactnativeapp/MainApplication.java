@@ -8,8 +8,8 @@ import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactNativeHost;
 import com.facebook.soloader.SoLoader;
 import java.util.List;
-// Other imports
 import com.upi.payment.UpiPaymentPackage;
+
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -45,8 +45,6 @@ public class MainApplication extends Application implements ReactApplication {
         }
       };
 
-
-  
  
 
   @Override
