@@ -32,6 +32,7 @@ import RNUpiPayment from 'react-native-pay-by-upi';
 function App() {
   const [amount, onChangeAmount] = useState('');
   const [transaction, setTransaction] = useState('0');
+  const hello = 'hello';
 
   const onClickPay = () => {
     if (typeof parseInt(amount) === 'number' && amount.length > 0) {
